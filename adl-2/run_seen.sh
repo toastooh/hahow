@@ -1,0 +1,1 @@
+python3 pred_seen.py --train_file ${1}  --course_file ${2} --sub_group ${3} --test_file ${4} --course_out_file ${5} --subgroup_outfile ${6} --user_file ${7}
