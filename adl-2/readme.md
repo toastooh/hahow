@@ -12,12 +12,19 @@ python3 pred_seen.py
 
 ```
 train_file: Path to the train file(e.g. train.csv)
+
 course_file: Path to the courses file(e.g. courses.csv)
+
 sub_group: Path to the subgroups file(e.g. subgroups.csv)
+
 test_file: Path to the test file(e.g. test_seen.csv)
+
 course_out_file: Course prediction file path
+
 subgroup_outfile: User Topic prediction file path
+
 user_file: Path to the user file(e.g. users.csv)
+
 threshold: If passed, use threshold on cosine similarity.
 
 ## Run unseen domain course prediction and user topic prediction
@@ -29,11 +36,17 @@ python3 pred_unseen.py
 
 ```
 train_file: Path to the train file(e.g. train.csv)
+
 course_file: Path to the courses file(e.g. courses.csv)
+
 sub_group: Path to the subgroups file(e.g. subgroups.csv)
+
 test_file: Path to the test file(e.g. test_seen.csv)
+
 course_out_file: Course prediction file path
+
 subgroup_outfile: User Topic prediction file path
+
 user_file: Path to the user file(e.g. users.csv)
 
 ## Reproduce seen domain course/topic prediction
